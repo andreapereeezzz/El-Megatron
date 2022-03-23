@@ -31,6 +31,7 @@ var numeroFrases=reto.length;
 var posicionFrase=Math.round(Math.random()*(numeroFrases-1-0)+0);
 var fraseSelecionada=reto[posicionFrase];
 
+// le digo que saque la frase selecionada 
 document.querySelector(".reto").textContent=fraseSelecionada;
 
 
